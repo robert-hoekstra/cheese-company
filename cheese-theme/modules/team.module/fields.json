@@ -1,0 +1,158 @@
+[
+  {
+    "name": "team",
+    "label": "Team Members",
+    "type": "group",
+    "repeatable": true,
+    "occurrence": {
+      "min": 1,
+      "max": null,
+      "default": 3
+    },
+    "children": [
+      {
+        "name": "member_name",
+        "label": "Name",
+        "type": "text",
+        "required": false,
+        "locked": false,
+        "allow_new_line": false,
+        "show_emoji_picker": false,
+        "default": "Gouda"
+      },
+      {
+        "name": "role",
+        "label": "Role",
+        "type": "text",
+        "required": false,
+        "locked": false,
+        "allow_new_line": false,
+        "show_emoji_picker": false,
+        "default": "Cheese Boss"
+      },
+      {
+        "name": "image",
+        "label": "Image",
+        "type": "image",
+        "required": false,
+        "locked": false,
+        "responsive": true,
+        "resizable": true,
+        "show_loading": true,
+        "default": {
+          "size_type": "auto",
+          "src": "../../images/blue_cheese.jpeg",
+          "alt": "Team member",
+          "loading": "lazy",
+          "width": 400,
+          "height": 400,
+          "max_width": 400,
+          "max_height": 400
+        }
+      },
+      {
+        "name": "description",
+        "label": "Description",
+        "type": "text",
+        "required": false,
+        "locked": false,
+        "allow_new_line": true,
+        "show_emoji_picker": false,
+        "default": "A brief description about the team member."
+      }
+    ],
+    "tab": "CONTENT",
+    "expanded": false,
+    "default": [
+      {
+        "member_name": "Mr. Gouda",
+        "role": "Cheese Aficionado",
+        "image": {
+          "size_type": "auto",
+          "src": "../../images/gouda_cheese.jpeg",
+          "alt": "The Best",
+          "loading": "lazy",
+          "width": 400,
+          "height": 400,
+          "max_width": 400,
+          "max_height": 400
+        },
+        "description": "Gouda is the best because it is Dutch."
+      },
+      {
+        "member_name": "Señor Azurélien",
+        "role": "Cheese Specialist",
+        "image": {
+          "size_type": "auto",
+          "src": "../../images/blue_cheese.jpeg",
+          "alt": "Team member",
+          "loading": "lazy",
+          "width": 400,
+          "height": 400,
+          "max_width": 400,
+          "max_height": 400
+        },
+        "description": "Blue Cheese is known for its distinct flavor and creamy texture."
+      },
+      {
+        "member_name": "Monsieur Brie",
+        "role": "Cheese Connoisseur",
+        "image": {
+          "size_type": "auto",
+          "src": "../../images/brie_cheese.jpeg",
+          "alt": "Team member",
+          "loading": "lazy",
+          "width": 400,
+          "height": 400,
+          "max_width": 400,
+          "max_height": 400
+        },
+        "description": "Brie Cheese brings elegance and smoothness to every cheese board."
+      },
+      {
+        "member_name": "Cheaky Cheddar",
+        "role": "Finance",
+        "image": {
+          "size_type": "auto",
+          "src": "../../images/cheddar_cheese.jpeg",
+          "alt": "Team member",
+          "loading": "lazy",
+          "width": 400,
+          "height": 400,
+          "max_width": 400,
+          "max_height": 400
+        },
+        "description": "Cheddar Cheese is a classic favorite with a sharp and tangy taste."
+      },
+      {
+        "member_name": "Faky Flaky",
+        "role": "Imposter",
+        "image": {
+          "size_type": "auto",
+          "src": "../../images/fake_cheese.jpeg",
+          "alt": "He is just an imposter",
+          "loading": "lazy",
+          "width": 400,
+          "height": 400,
+          "max_width": 400,
+          "max_height": 400
+        },
+        "description": "Did I apply for the job? Well, I'm just a fake cheese."
+      }
+    ]
+  },
+  {
+  "name": "team_title",
+  "label": "A title for the team",
+  "required": false,
+  "locked": false,
+  "validation_regex": "",
+  "validation_error_message": "",
+  "allow_new_line": false,
+  "show_emoji_picker": false,
+  "type": "text",
+  "placeholder": "A title for the team",
+  "inline_help_text": "",
+  "help_text": "",
+  "default": "null" }
+]

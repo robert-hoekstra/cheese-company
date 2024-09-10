@@ -1,0 +1,23 @@
+<!--
+  templateType: section
+  label: Multi-column content
+  isAvailableForNewContent: true
+  description: "Full size section to display a hero, title, image and leading text "
+-->
+{% dnd_section %}
+  {% dnd_column %}
+    {% dnd_row %}
+        {% dnd_module "hero-image" path="../modules/image.module" width="4" %}
+        {% end_dnd_module %}
+        {% dnd_module path="@hubspot/rich_text" width="8" offset="4"  %}
+            {% module_attribute "html" %}
+              <h2>We care about your taste!</h2>
+              <p>
+                No really, we do care about your taste. We even care about your smell even.
+                You matter. In fact, you are literally a piece of matter!
+              </p>
+            {% end_module_attribute %}
+          {% end_dnd_module %}
+    {% end_dnd_row %}
+  {% end_dnd_column %}
+{% end_dnd_section %}

@@ -1,0 +1,40 @@
+
+{% include './generic/_reset.css' %}
+{% include './generic/_normalize.css' %}
+{% include './partials/_footer.css'%}
+{% include './objects/_layout.css' %}
+{% include './objects/_containers-dnd.css' %}
+
+    body{
+        font-family: {{ theme.global_fonts.secondary.font }}; 
+        color: {{ theme.global_fonts.primary.color }};
+        position: relative;
+    }
+
+    h1, h2, h3, h4, h5, h6{
+        font-family: {{ theme.global_fonts.primary.font }}; 
+    }
+
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+
+    footer{
+        margin-top: 2rem;
+    }
+    .body-container-wrapper{
+        margin-inline: 1rem;
+    }
+
+
+    .header{
+        background-color: {{ theme.global_colors.background_color.color }};
+        padding: 1rem;
+        margin-bottom: 2rem;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        position: sticky;
+        top: 0;
+        left: 0;
+    }
+    

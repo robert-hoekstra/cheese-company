@@ -1,0 +1,30 @@
+
+[
+  {
+  "name": "content",
+  "label": "Main content for this section",
+  "required": false,
+  "locked": false,
+  "type": "richtext",
+  "inline_help_text": "Enter information about the subject of the section. This will appear below the title and paragraph.",
+  "help_text": "",
+  "default": "This is the main content for the section." 
+},
+{
+"name": "image",
+"label": "Image field",
+"required": false,
+"locked": false,
+"inline_help_text": "",
+"help_text": "",
+"responsive": true,
+"resizable": true,
+"show_loading" : false,
+"type": "image",
+"default": {
+  "size_type" : "auto",
+  "src": "../../images/five_cheeses.jpeg",
+  "alt": null,
+  "loading": "disabled"}
+}
+]

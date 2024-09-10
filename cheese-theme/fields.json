@@ -1,0 +1,110 @@
+[
+  {
+    "label": "Global colors",
+    "name": "global_colors",
+    "type": "group",
+    "children": [
+      {
+        "label": "Primary",
+        "name": "primary",
+        "type": "color",
+        "visibility": {
+          "hidden_subfields": {
+            "opacity": true
+          }
+        },
+        "default": {
+          "color": "#554A52"
+        }
+      },
+      {
+        "label": "Secondary",
+        "name": "secondary",
+        "type": "color",
+        "visibility": {
+          "hidden_subfields": {
+            "opacity": true
+          }
+        },
+        "default": {
+          "color": "#F8FAFC"
+        }
+      },
+      {
+        "label": "Tertiary",
+        "name": "tertiary",
+        "type": "color",
+        "visibility": {
+          "hidden_subfields": {
+            "opacity": true
+          }
+        },
+        "default": {
+          "color": "#ffd860"
+        }
+      },
+      {
+        "label": "Background color",
+        "name": "background_color",
+        "type": "color",
+        "visibility": {
+            "hidden_subfields": {
+              "opacity": true
+            }
+          },
+        "default": {
+          "color": "#FFD966"
+        }
+      }
+    ]
+  },
+  {
+    "label": "Global fonts",
+    "name": "global_fonts",
+    "type": "group",
+    "children": [
+      {
+        "label": "Primary",
+        "name": "primary",
+        "type": "font",
+        "visibility": {
+          "hidden_subfields": {
+            "size": true,
+            "styles": true
+          }
+        },
+        "inherited_value": {
+          "property_value_paths": {
+            "color": "theme.global_colors.primary.color"
+          }
+        },
+        "default": {
+          "fallback": "sans-serif",
+          "font": "Lato",
+          "font_set": "GOOGLE"
+        }
+      },
+      {
+        "label": "Secondary",
+        "name": "secondary",
+        "type": "font",
+        "visibility": {
+          "hidden_subfields": {
+            "size": true,
+            "styles": true
+          }
+        },
+        "inherited_value": {
+          "property_value_paths": {
+            "color": "theme.global_colors.secondary.color"
+          }
+        },
+        "default": {
+          "fallback": "serif",
+          "font": "Montserrat",
+          "font_set": "GOOGLE"
+        }
+      }
+    ]
+  }
+]

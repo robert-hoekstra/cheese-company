@@ -1,0 +1,17 @@
+<div class="team-module">
+  <h2 class="team-module__heading">{{ module.team_title || "No title found" }}</h2>
+  <div class="team-module__container">
+    {% if module.team %}
+      {% for member in module.team %}
+        <div class="team-module__member">
+          <img class="team-module__image" src="{{ member.image.src }}" alt="{{ member.image.alt | default(member.member_name) }}" />
+          <h3 class="team-module__name">{{ member.member_name }}</h3>
+          <p class="team-module__role">{{ member.role }}</p>
+          <p class="team-module__description">{{ member.description }}</p>
+        </div>
+      {% endfor %}
+    {% else %}
+      <p>No team members available at the moment.</p>
+    {% endif %}
+  </div>
+</div>

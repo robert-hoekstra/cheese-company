@@ -1,0 +1,18 @@
+<!--
+  templateType: global_partial
+  label: Header
+  isAvailableForNewContent: false
+-->
+
+<header class="header">
+  <h1>The Cheesehead Company</h1>
+  {% module_block module "module_quote"
+    path="@hubspot/rich_text",
+    label="Quote" %}
+    {% module_attribute "html" %}
+      <p>
+        Welcome to the Dutch Cheese Business, where we offer jobs for cheese! Wether you like cheese or are cheese yourself. Every cheese is welcome!
+      </p>
+    {% end_module_attribute %}
+  {% end_module_block %}
+</header>

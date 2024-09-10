@@ -1,0 +1,21 @@
+.footer{
+    padding-block: 1rem;
+    text-align: center;
+    background-color: {{ theme.global_colors.background_color.color }};
+    color: {{ theme.global_colors.primary.color }};
+}
+
+.social-media-icons {
+    margin-top: 1.25rem;
+}
+
+.social-media-icons a {
+    text-decoration: none;
+    color: {{ theme.global_colors.primary.color }}; 
+    margin-right: 1rem;
+    font-size: 1.5rem; 
+}
+
+.social-media-icons a:hover {
+    color: {{ theme.global_colors.secondary.color }};
+}

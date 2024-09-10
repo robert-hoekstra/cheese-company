@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "@hubspot/prettier-plugin-hubl": "^0.2.5"
+  }
+}

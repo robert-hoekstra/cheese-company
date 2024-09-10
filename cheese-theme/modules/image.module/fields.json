@@ -1,0 +1,13 @@
+[
+  {
+    "default": {
+      "src": "../../images/five_cheeses.jpeg",
+      "alt": "Image description"
+    },
+    "label": "Image ",
+    "locked": false,
+    "name": "image",
+    "required": false,
+    "type": "image"
+  }
+]

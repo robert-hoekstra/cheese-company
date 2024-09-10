@@ -1,0 +1,8 @@
+{
+  "global": false,
+  "content_types": ["LANDING_PAGE", "SITE_PAGE"],
+  "icon": "https://placehold.co/25",
+  "label": "Hero module",
+  "is_available_for_new_content": true,
+  "inline_help_text": "This module is designed to create a hero section on your website."
+}
